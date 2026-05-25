@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",
+  basePath: "/my-planner-app",
+  images: { unoptimized: true },
 };
 
 export default nextConfig;
